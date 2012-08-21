@@ -70,20 +70,20 @@ class ShrAnalyticsSection extends PageLinesSection {
     
     $settings = wp_parse_args($settings, $this->optionator_default);
     $options = array(
-      'shr-recomm-terms' => array(
-            'type' => 'text_content',
-            'inputlabel' => 'By activating Shareaholic you agree to our <a href="http://www.shareaholic.com/terms/" target="_blank"> Terms of Service</a> and <a href="http://www.shareaholic.com/privacy/" target="_blank"> Privacy Policy</a>.',
-            'title' => '',
-            'shortexp' => '',
-            'exp' => '',
+      'shr-recomm-terms'  => array(
+            'type'        => 'text_content',
+            'inputlabel'  => 'By activating Shareaholic you agree to our <a href="http://www.shareaholic.com/terms/" target="_blank">Terms of Service</a> and <a href="http://www.shareaholic.com/privacy/" target="_blank">Privacy Policy</a>.',
+            'title'       => '',
+            'shortexp'    => '',
+            'exp'         => '',
         )
     );
     $tab_settings = array(
-        'id' => 'shr-analytics-options',
-        'name' => 'Shareaholic Publisher Analytics Settings',
-        'icon' => $this->icon,
-        'clone_id' => $settings['clone_id'],
-        'active' => $settings['active']
+        'id'        => 'shr-analytics-options',
+        'name'      => 'Shareaholic Publisher Analytics Settings',
+        'icon'      => $this->icon,
+        'clone_id'  => $settings['clone_id'],
+        'active'    => $settings['active']
     );
     register_metatab($tab_settings, $options, $this->class_name);
   }

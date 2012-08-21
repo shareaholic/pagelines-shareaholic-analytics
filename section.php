@@ -3,11 +3,10 @@
   Section: Shareaholic Publisher Analytics
   Author: Shareaholic
   Author URI: http://shareaholic.com
-  Version: 1.0.0
-  Description: Shareaholic is trusted by more than 200,000 websites, reaching 300,000,000 people each month. Get free access to Shareaholic’s simple-to-use publisher analytics dashboard, which shows you your top traffic sources, most influential readers and helps you track your progress on traffic growth.
+  Version: 1.0.1
+  Description: Get free access to Shareaholic’s simple-to-use publisher analytics dashboard, which shows you your top traffic sources, most influential readers and helps you track your progress on traffic growth.  Shareaholic is trusted by hundreds of thousands of websites and touches over 300 million people each month.
   Class Name: ShrAnalyticsSection
   Cloning: false
-  External: http://www.shareaholic.com/publishers/analytics
   Demo: http://www.shareaholic.com/publishers/analytics
   Workswith: main
  */

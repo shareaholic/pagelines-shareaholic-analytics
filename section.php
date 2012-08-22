@@ -72,7 +72,7 @@ class ShrAnalyticsSection extends PageLinesSection {
       'shr-recomm-terms'  => array(
             'type'        => 'text_content',
             'inputlabel'  => 'By activating Shareaholic you agree to our <a href="http://www.shareaholic.com/terms/" target="_blank">Terms of Service</a> and <a href="http://www.shareaholic.com/privacy/" target="_blank">Privacy Policy</a>.',
-            'title'       => '',
+            'title'       => 'See your analytics dashboard by filling in your website under "live report" on <a href="http://www.shareaholic.com/publishers/analytics/?utm_source=Pagelines" target="_blank">Shareaholic.com</a>.',
             'shortexp'    => '',
             'exp'         => '',
         )
